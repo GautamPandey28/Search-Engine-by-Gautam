@@ -14,5 +14,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://GautamPandey28:$HF_TOKEN@huggingface.co/spaces/GautamPandey28/Search_Engine_LLM_Groq main
+          HF_TOKEN_1: ${{ secrets.HF_TOKEN }}
+        run: git push --force https://GautamPandey28:$HF_TOKEN_1@huggingface.co/spaces/GautamPandey28/Search_Engine_LLM_Groq main
